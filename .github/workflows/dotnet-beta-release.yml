@@ -29,8 +29,6 @@ jobs:
       - name: Pack
         run: dotnet pack --no-build --no-restore --configuration Release
       - name: List
-        run: ls -la ./am.kon.packages.dac.postgreslq/bin/Release/
-      - name: List2
         run: ls -la ./
       - name: Push
-        run: dotnet nuget push ./am.kon.packages.dac.postgreslq/bin/Release/am.kon.packages.dac.postgresql.*.nupkg --api-key ${{ secrets.NUGET_PUBLISH_SECRET }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+        run: dotnet nuget push ./src/am.kon.packages.dac.postgreslq/bin/Release/am.kon.packages.dac.postgresql.*.nupkg --api-key ${{ secrets.NUGET_PUBLISH_SECRET }} --source https://api.nuget.org/v3/index.json --skip-duplicate
