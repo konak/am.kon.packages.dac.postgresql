@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0.1</Version>
+        <Authors>Konakov Sergey</Authors>
+        <Description>Data Access Component implementing functionality to interact with Postgre SQL server. Taking care about closing of used resources, except some cases of SqlDataReader. Also contains some ORM functionality to pass parameters to SQL queries using regular objects.</Description>
+        <RepositoryUrl>https://github.com/konak/am.kon.packages.dac.postgresql</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>dac postrgesql ExecuteNonQuery ExecuteReader ExecuteScalar FillData FillDataSet FillDataTable GetDataSet GetDataTable orm am.kon konak</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="am.kon.packages.dac.common" Version="0.1.0.3" />
+      <PackageReference Include="am.kon.packages.dac.primitives" Version="0.1.0.3" />
+      <PackageReference Include="Npgsql" Version="9.0.3" />
+    </ItemGroup>
+
+</Project>
