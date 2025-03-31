@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F3D675D-834C-4D07-95CB-16C13DFE421A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "am.kon.packages.dac.postgreslq", "am.kon.packages.dac.postgreslq\am.kon.packages.dac.postgreslq.csproj", "{9C002C0B-67CD-4C23-9B65-40E9DFBE8609}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "am.kon.packages.dac.postgreslq", "src\am.kon.packages.dac.postgresql\am.kon.packages.dac.postgreslq.csproj", "{0724663D-C47B-459D-87D1-E6E960A14C70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,12 +10,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9C002C0B-67CD-4C23-9B65-40E9DFBE8609} = {5F3D675D-834C-4D07-95CB-16C13DFE421A}
+		{0724663D-C47B-459D-87D1-E6E960A14C70} = {5F3D675D-834C-4D07-95CB-16C13DFE421A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9C002C0B-67CD-4C23-9B65-40E9DFBE8609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C002C0B-67CD-4C23-9B65-40E9DFBE8609}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C002C0B-67CD-4C23-9B65-40E9DFBE8609}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C002C0B-67CD-4C23-9B65-40E9DFBE8609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0724663D-C47B-459D-87D1-E6E960A14C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0724663D-C47B-459D-87D1-E6E960A14C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0724663D-C47B-459D-87D1-E6E960A14C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0724663D-C47B-459D-87D1-E6E960A14C70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
