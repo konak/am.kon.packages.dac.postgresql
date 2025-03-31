@@ -10,6 +10,8 @@
         <RepositoryUrl>https://github.com/konak/am.kon.packages.dac.postgresql</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>dac postrgesql ExecuteNonQuery ExecuteReader ExecuteScalar FillData FillDataSet FillDataTable GetDataSet GetDataTable orm am.kon konak</PackageTags>
+        <AssemblyName>am.kon.packages.dac.postgresql</AssemblyName>
+        <RootNamespace>am.kon.packages.dac.postgresql</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

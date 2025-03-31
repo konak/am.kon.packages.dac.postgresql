@@ -1,11 +1,11 @@
 using System.Data;
-using am.kon.packages.dac.postgreslq.Extensions;
+using am.kon.packages.dac.postgresql.Extensions;
 using am.kon.packages.dac.primitives;
 using am.kon.packages.dac.primitives.Constants.Exception;
 using am.kon.packages.dac.primitives.Exceptions;
 using Npgsql;
 
-namespace am.kon.packages.dac.postgreslq;
+namespace am.kon.packages.dac.postgresql;
 
 public partial class DataBase : IDataBase
 {

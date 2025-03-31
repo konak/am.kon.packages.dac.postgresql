@@ -4,7 +4,7 @@ using am.kon.packages.dac.common.Cache;
 using am.kon.packages.dac.primitives;
 using Npgsql;
 
-namespace am.kon.packages.dac.postgreslq.Extensions;
+namespace am.kon.packages.dac.postgresql.Extensions;
 
 /// <summary>
 /// Provides extension methods for converting various data structures into arrays of <see cref="IDataParameter"/> objects.
